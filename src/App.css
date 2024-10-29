@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  scroll-behavior: smooth;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #f8e3b2,
+    #f3db8f,
+    #f0d68e,
+    #ebc66a,
+    #e4b351,
+    #dc9b38,
+    #d48b2d,
+    #c67b26,
+    #bc6d2d,
+    #b46232,
+    #a65a3c,
+    #b96e3c,
+    #e9a367,
+    #f4a775,
+    #fbc7a4
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  z-index: -1;
+}
+
+.artistic-line-break {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.artistic-line-break1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.artistic-line-break2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 5px 0px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #d2b48c,
+    #c69c6d,
+    #8b4513,
+    #5b3a29,
+    #4b3c2a
+  );
+
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.line1 {
+  flex-grow: 1;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #4b3c2a,
+    #5b3a29,
+    #8b4513,
+    #c69c6d,
+    #d2b48c
+  );
+
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.design {
+  font-size: 2rem;
+  margin: 0 10px;
+  transform: rotate(0deg);
+  animation: bounce 1s infinite;
+}
+
+.circular-image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.circular-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section3 {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info1 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rights {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(3, 9, 18, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #950b0b;
+  border-radius: 18px;
+  border: 3px solid transparent;
+  transition: background-color 0.3s ease;
+}
