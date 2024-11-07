@@ -27,10 +27,9 @@ function App() {
     triggerOnce: true,
   });
 
-  const handleScrollToMember = (index) => {
-    const element = memberRefs.current[index];
-    if (element) {
-      element.scrollIntoView({
+  const handleScrollToFooter = () => {
+    if (section3Ref.current) {
+      section3Ref.current.scrollIntoView({
         behavior: "smooth",
         block: "center",
         inline: "nearest",
@@ -38,9 +37,10 @@ function App() {
     }
   };
 
-  const handleScrollToFooter = () => {
-    if (section3Ref.current) {
-      section3Ref.current.scrollIntoView({
+  const handleScrollToMember = (index) => {
+    const element = memberRefs.current[index];
+    if (element) {
+      element.scrollIntoView({
         behavior: "smooth",
         block: "center",
         inline: "nearest",
