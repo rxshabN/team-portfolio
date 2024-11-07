@@ -208,12 +208,11 @@
 
 ::-webkit-scrollbar-track {
   background: rgba(3, 9, 18, 0.8);
-  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #950b0b;
-  border-radius: 18px;
   border: 3px solid transparent;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
