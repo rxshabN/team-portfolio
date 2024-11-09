@@ -128,7 +128,7 @@ function App() {
                   <img
                     src="pritha-logo.jpg"
                     alt="image of pritha"
-                    className="object-cover w-full h-[24vh]"
+                    className="object-cover w-full h-[185px]"
                   />
                 </motion.div>
                 <span className="text-3xl">Pritha Nagpal</span>
@@ -155,7 +155,11 @@ function App() {
                     damping: 10,
                   }}
                 >
-                  <img src="image.png" alt="image of amlan" className="object-cover" />
+                  <img
+                    src="image.png"
+                    alt="image of amlan"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
                 <span className="text-3xl">Amlan Pal</span>
               </motion.div>
@@ -181,7 +185,11 @@ function App() {
                     damping: 10,
                   }}
                 >
-                  <img src="" alt="image of suhani" className="object-cover" />
+                  <img
+                    src=""
+                    alt="image of suhani"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
                 <span className="text-3xl">Suhani Singh</span>
               </motion.div>
@@ -199,14 +207,20 @@ function App() {
                 onClick={() => handleScrollToMember(4)}
               >
                 <motion.div
-                  className="bg-red-400 h-[25vh] ml-5 mr-5 mt-2"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
                   whileHover={{ scale: 1.05 }}
                   transition={{
                     type: "spring",
                     stiffness: 300,
                     damping: 10,
                   }}
-                ></motion.div>
+                >
+                  <img
+                    src=""
+                    alt="image of priyanshu"
+                    className="object-cover w-full h-[185px]"
+                  />
+                </motion.div>
                 <span className="text-3xl">Member 5</span>
               </motion.div>
             </div>
@@ -391,7 +405,7 @@ function App() {
             id="amlan"
             className="min-h-screen flex items-center justify-center text-white text-5xl"
           >
-          <div className="w-full h-full">
+            <div className="w-full h-full">
               <div>
                 <div className="w-full h-1/2 flex justify-center items-center">
                   <div className="circular-image-container">
