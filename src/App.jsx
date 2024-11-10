@@ -510,7 +510,7 @@ function App() {
           <div className="p-3">
             <div className="w-full h-full flex flex-col gap-7 items-center">
               <span className="text-2xl font-bold">Rishab Nagwani</span>
-              <a href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==">
+              <a href="https://www.instagram.com/ri_shab.n">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -610,7 +610,7 @@ function App() {
           <div className="p-3">
             <div className="w-full h-full flex flex-col gap-7 items-center">
               <span className="text-2xl font-bold">Pritha Nagpal</span>
-              <a href="https://www.instagram.com/pritha_nagpal/profilecard/?igsh=MXJqYjdsNDM3bWR5NA==">
+              <a href="https://www.instagram.com/pritha_nagpal">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -644,7 +644,7 @@ function App() {
                   </span>
                 </span>
               </a>
-              <a href="https://www.instagram.com/prithaazz/profilecard/?igsh=MXJvOWY4NWh6aTFodQ==">
+              <a href="https://www.instagram.com/prithaazz">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
