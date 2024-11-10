@@ -344,8 +344,7 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love dancing so much that I can literally dance
-                  in my sleep! I also love to sketch just for fun, and it’s one
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one
                   of my ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
@@ -420,8 +419,7 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love dancing so much that I can literally dance
-                  in my sleep! I also love to sketch just for fun, and it’s one
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one
                   of my ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
