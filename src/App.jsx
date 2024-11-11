@@ -216,12 +216,12 @@ function App() {
                   }}
                 >
                   <img
-                    src=""
+                    src="pkphoto.jpeg"
                     alt="image of priyanshu"
                     className="object-cover w-full h-[185px]"
                   />
                 </motion.div>
-                <span className="text-3xl">Member 5</span>
+                <span className="text-3xl">Priyanshu Kumar </span>
               </motion.div>
             </div>
 
