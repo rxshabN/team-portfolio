@@ -344,8 +344,8 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love to sketch just for fun, and it’s one
-                  of my ways of releasing stress. I’ve also learned acoustic
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one of my
+                  ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
                 </div>
@@ -371,7 +371,7 @@ function App() {
             </div>
 
             <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
-              <div className="overflow-hidden">
+              <div>
                 I'm Pritha Nagpal, studying BTech in Computer Science and
                 Engineering with specialization in Data Science from Vellore
                 Institute of Technology in Vellore.
@@ -419,8 +419,8 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love to sketch just for fun, and it’s one
-                  of my ways of releasing stress. I’ve also learned acoustic
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one of my
+                  ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
                 </div>
@@ -446,7 +446,7 @@ function App() {
             </div>
 
             <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
-              <div className="overflow-hidden">
+              <div>
                 I'm Pritha Nagpal, studying BTech in Computer Science and
                 Engineering with specialization in Data Science from Vellore
                 Institute of Technology in Vellore.
