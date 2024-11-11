@@ -186,7 +186,7 @@ function App() {
                   }}
                 >
                   <img
-                    src=""
+                    src="image copy 2.png"
                     alt="image of suhani"
                     className="object-cover w-full h-[185px]"
                   />
@@ -479,7 +479,64 @@ function App() {
             id="suhani"
             className="min-h-screen flex items-center justify-center text-white text-5xl"
           >
-            Suggu
+          <div className="w-full h-full">
+              <div>
+                <div className="w-full h-1/2 flex justify-center items-center">
+                  <div className="circular-image-container">
+                    <img
+                      src="image copy.png"
+                      alt="image of suhani"
+                      width={300}
+                      className="circular-image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="w-full h-1/2 text-lg p-7">
+                <div>
+                   👩🏻‍🎨 Hobbies: I absolutely love sketching, listening to music and binge-watching blend which provides me relaxation and entertainment. Sketching allows me to self-express while music offers me a calming escape and binge-watching provides engaging stories to unwind.
+                  <br />
+                </div>
+                <br />
+                <div>
+                  💻 Learning: I'm excited to dive into web development and design, learning HTML, CSS, and JavaScript alongside essential design principles. My goal is to create visually appealing, user-friendly websites and grow in this dynamic field. <br />
+                </div>
+                <br />
+                <div>
+                  🌍 Exploring: If given the chance, I’d love to explore space, experience the universe’s vastness, and discover new worlds. The idea of seeing the cosmos up close excites me.
+                  <br />
+                </div>
+                <br />
+                <div>
+                 📚 Reading: I love reading books as it allows me to escape into different worlds, learn new things, and expand my imagination. Each book offers a unique experience that keeps me engaged and curious.
+                </div>
+              </div>
+            </div>
+
+            <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
+              <div>
+              I'm Suhani Singh, a passionate B.Tech student specialising in Electronics and Communication at Vellore Institute Of Technology, Vellore. I'm excited to dive deep into the world of technology and innovation as I embark on this academic journey!
+                <br />
+              </div>
+              <br />
+              <div>
+              I'm a passionate and curious individual with a love for learning, creativity, and adventure. Whether I’m diving into a new hobby, tackling a challenging project, or simply exploring new ideas, I enjoy immersing myself in whatever I do. I believe that every experience has something valuable to teach, and I'm always eager to grow.
+                <br />
+              </div>
+              <br />
+              <div>
+              My interests range widely—from sketching and binge-watching shows to exploring the world of web development and design. I’m a bit of a tech enthusiast, especially drawn to projects that merge creativity with practical problem-solving. I'm currently getting more into web development, and I’m excited to see where that journey leads!<br />
+              </div>
+              <br />
+              <div>
+              I also love unwinding with a good book or exploring new music. Space exploration fascinates me too—I’d jump at any chance to learn about or be a part of projects that explore the unknown. These hobbies fuel my imagination and bring fresh perspectives to my work and personal projects.
+              </div>
+              <br />
+              <div>
+              Overall, I’d describe myself as someone who thrives on curiosity and connection. I enjoy meeting new people, sharing ideas, and learning from others. Whether it's about creativity, tech, or just having fun, I’m always open to great conversations and new experiences!
+              </div>
+              <br />
+            </div>
           </div>
           <div className="artistic-line-break">
             <span className="line"></span>
@@ -781,6 +838,59 @@ function App() {
           <div className="p-3">
             <div className="w-full h-full flex flex-col gap-7 items-center">
               <span className="text-2xl font-bold">Suhani Singh</span>
+              <a href="https://www.instagram.com/suhani.si.ek.ladkiii">
+                <span className="text-lg cursor-pointer flex gap-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="30"
+                    height="30"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M17.5078 6.5L17.4988 6.5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span className="hover-underline-animation">Instagram</span>
+                </span>
+              </a>
+              <a href="https://github.com/singhsuhanibaghel">
+                <span className="text-lg cursor-pointer flex gap-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="30"
+                    height="30"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span className="hover-underline-animation">GitHub</span>
+                </span>
+              </a>
             </div>
           </div>
           <div className="p-3">
