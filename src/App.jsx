@@ -344,8 +344,8 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love to sketch just for fun, and it’s one
-                  of my ways of releasing stress. I’ve also learned acoustic
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one of my
+                  ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
                 </div>
@@ -371,7 +371,7 @@ function App() {
             </div>
 
             <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
-              <div className="overflow-hidden">
+              <div>
                 I'm Pritha Nagpal, studying BTech in Computer Science and
                 Engineering with specialization in Data Science from Vellore
                 Institute of Technology in Vellore.
@@ -419,8 +419,8 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love to sketch just for fun, and it’s one
-                  of my ways of releasing stress. I’ve also learned acoustic
+                  🎶 Hobbies: I love to sketch just for fun, and it’s one of my
+                  ways of releasing stress. I’ve also learned acoustic
                   guitar—just for fun!
                   <br />
                 </div>
@@ -446,7 +446,7 @@ function App() {
             </div>
 
             <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
-              <div className="overflow-hidden">
+              <div>
                 I'm Pritha Nagpal, studying BTech in Computer Science and
                 Engineering with specialization in Data Science from Vellore
                 Institute of Technology in Vellore.
@@ -565,7 +565,7 @@ function App() {
           <div className="p-3">
             <div className="w-full h-full flex flex-col gap-7 items-center">
               <span className="text-2xl font-bold">Rishab Nagwani</span>
-              <a href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==">
+              <a href="https://www.instagram.com/ri_shab.n">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -665,7 +665,7 @@ function App() {
           <div className="p-3">
             <div className="w-full h-full flex flex-col gap-7 items-center">
               <span className="text-2xl font-bold">Pritha Nagpal</span>
-              <a href="https://www.instagram.com/pritha_nagpal/profilecard/?igsh=MXJqYjdsNDM3bWR5NA==">
+              <a href="https://www.instagram.com/pritha_nagpal">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -699,7 +699,7 @@ function App() {
                   </span>
                 </span>
               </a>
-              <a href="https://www.instagram.com/prithaazz/profilecard/?igsh=MXJvOWY4NWh6aTFodQ==">
+              <a href="https://www.instagram.com/prithaazz">
                 <span className="text-lg cursor-pointer flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
