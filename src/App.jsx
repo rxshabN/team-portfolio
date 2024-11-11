@@ -75,159 +75,159 @@ function App() {
               <span className="line1"></span>
             </motion.div>
 
-            <div className="h-[45vh]">
-              <div className="pictures h-[45vh] w-full grid grid-cols-5">
+          <div className="h-[45vh]">
+            <div className="pictures h-[45vh] w-full grid grid-cols-5">
+              <motion.div
+                key={0}
+                variants={fadeInVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 0.7,
+                  ease: "easeInOut",
+                  delay: 2.8,
+                }}
+                className="cell border-gray-300 text-center flex flex-col gap-[6vh]"
+                onClick={() => handleScrollToMember(0)}
+              >
                 <motion.div
-                  key={0}
-                  variants={fadeInVariants}
-                  initial="hidden"
-                  animate="visible"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
+                  whileHover={{ scale: 1.05 }}
                   transition={{
-                    duration: 0.7,
-                    ease: "easeInOut",
-                    delay: 2.8,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 10,
                   }}
-                  className="cell border-gray-250 text-center flex flex-col gap-[6vh]"
-                  onClick={() => handleScrollToMember(0)}
                 >
-                  <motion.div
-                    className="h-[25vh] ml-5 mr-5 mt-2"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 250,
-                      damping: 10,
-                    }}
-                  >
-                    <img
-                      src="logo-rn.png"
-                      alt="image of rishab logo"
-                      className="object-cover"
-                    />
-                  </motion.div>
-                  <span className="text-3xl">Rishab Nagwani</span>
+                  <img
+                    src="logo-rn.png"
+                    alt="image of rishab logo"
+                    className="object-cover"
+                  />
                 </motion.div>
+                <span className="text-3xl">Rishab Nagwani</span>
+              </motion.div>
+              <motion.div
+                key={1}
+                variants={fadeInVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 0.7,
+                  ease: "easeInOut",
+                  delay: 3.4,
+                }}
+                className="cell border-gray-300 text-center flex flex-col gap-[6vh]"
+                onClick={() => handleScrollToMember(1)}
+              >
                 <motion.div
-                  key={1}
-                  variants={fadeInVariants}
-                  initial="hidden"
-                  animate="visible"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
+                  whileHover={{ scale: 1.05 }}
                   transition={{
-                    duration: 0.7,
-                    ease: "easeInOut",
-                    delay: 3.4,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 10,
                   }}
-                  className="cell border-gray-250 text-center flex flex-col gap-[6vh]"
-                  onClick={() => handleScrollToMember(1)}
                 >
-                  <motion.div
-                    className="h-[25vh] ml-5 mr-5 mt-2"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 250,
-                      damping: 10,
-                    }}
-                  >
-                    <img
-                      src="pritha-logo.jpg"
-                      alt="image of pritha"
-                      className="object-cover w-full h-[185px]"
-                    />
-                  </motion.div>
-                  <span className="text-3xl">Pritha Nagpal</span>
+                  <img
+                    src="pritha-logo.jpg"
+                    alt="image of pritha"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
+                <span className="text-3xl">Pritha Nagpal</span>
+              </motion.div>
+              <motion.div
+                key={2}
+                variants={fadeInVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 0.7,
+                  ease: "easeInOut",
+                  delay: 3.9,
+                }}
+                className="cell border-gray-300 text-center flex flex-col gap-[6vh]"
+                onClick={() => handleScrollToMember(2)}
+              >
                 <motion.div
-                  key={2}
-                  variants={fadeInVariants}
-                  initial="hidden"
-                  animate="visible"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
+                  whileHover={{ scale: 1.05 }}
                   transition={{
-                    duration: 0.7,
-                    ease: "easeInOut",
-                    delay: 3.9,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 10,
                   }}
-                  className="cell border-gray-250 text-center flex flex-col gap-[6vh]"
-                  onClick={() => handleScrollToMember(2)}
                 >
-                  <motion.div
-                    className="h-[25vh] ml-5 mr-5 mt-2"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 250,
-                      damping: 10,
-                    }}
-                  >
-                    <img
-                      src="image.png"
-                      alt="image of amlan"
-                      className="object-cover w-full h-[185px]"
-                    />
-                  </motion.div>
-                  <span className="text-3xl">Amlan Pal</span>
+                  <img
+                    src="image.png"
+                    alt="image of amlan"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
+                <span className="text-3xl">Amlan Pal</span>
+              </motion.div>
+              <motion.div
+                key={3}
+                variants={fadeInVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 0.7,
+                  ease: "easeInOut",
+                  delay: 4.4,
+                }}
+                className="cell border-gray-300 text-center flex flex-col gap-[6vh]"
+                onClick={() => handleScrollToMember(3)}
+              >
                 <motion.div
-                  key={3}
-                  variants={fadeInVariants}
-                  initial="hidden"
-                  animate="visible"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
+                  whileHover={{ scale: 1.05 }}
                   transition={{
-                    duration: 0.7,
-                    ease: "easeInOut",
-                    delay: 4.4,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 10,
                   }}
-                  className="cell border-gray-250 text-center flex flex-col gap-[6vh]"
-                  onClick={() => handleScrollToMember(3)}
                 >
-                  <motion.div
-                    className="h-[25vh] ml-5 mr-5 mt-2"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 250,
-                      damping: 10,
-                    }}
-                  >
-                    <img
-                      src="image copy 2.png"
-                      alt="image of suhani"
-                      className="object-cover w-full h-[185px]"
-                    />
-                  </motion.div>
-                  <span className="text-3xl">Suhani Singh</span>
+                  <img
+                    src=""
+                    alt="image of suhani"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
+                <span className="text-3xl">Suhani Singh</span>
+              </motion.div>
+              <motion.div
+                key={4}
+                variants={fadeInVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 0.7,
+                  ease: "easeInOut",
+                  delay: 4.9,
+                }}
+                className="cell border-gray-300 text-center flex flex-col gap-[6vh]"
+                onClick={() => handleScrollToMember(4)}
+              >
                 <motion.div
-                  key={4}
-                  variants={fadeInVariants}
-                  initial="hidden"
-                  animate="visible"
+                  className="h-[25vh] ml-5 mr-5 mt-2"
+                  whileHover={{ scale: 1.05 }}
                   transition={{
-                    duration: 0.7,
-                    ease: "easeInOut",
-                    delay: 4.9,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 10,
                   }}
-                  className="cell border-gray-250 text-center flex flex-col gap-[6vh]"
-                  onClick={() => handleScrollToMember(4)}
                 >
-                  <motion.div
-                    className="h-[25vh] ml-5 mr-5 mt-2"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 250,
-                      damping: 10,
-                    }}
-                  >
-                    <img
-                      src=""
-                      alt="image of priyanshu"
-                      className="object-cover w-full h-[185px]"
-                    />
-                  </motion.div>
-                  <span className="text-3xl">Member 5</span>
+                  <img
+                    src="pkphoto.jpeg"
+                    alt="image of priyanshu"
+                    className="object-cover w-full h-[185px]"
+                  />
                 </motion.div>
-              </div>
+                <span className="text-3xl">Priyanshu Kumar</span>
+              </motion.div>
+            </div>
 
               <div className="artistic-line-break">
                 <span className="line"></span>
@@ -590,7 +590,91 @@ function App() {
               id="priyanshu"
               className="min-h-screen flex items-center justify-center text-white text-5xl"
             >
-              Priyanshu
+              <div className="w-full h-full">
+                <div>
+                  <div className="w-full h-1/2 flex justify-center items-center">
+                    <div className="circular-image-container mt-10">
+                      <img
+                        src="pkphoto2.jpeg"
+                        alt="image of pk"
+                        width={250}
+                        className="circular-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full h-1/2 text-lg p-7">
+                  <div>
+                    👩🏻‍🎨 Hobbies: I love playing cricket, it is more than just a sport to me 
+                    it's a passion that brings joy, excitement and the emotions tied to each 
+                    moment make it truly special. If not in the field you will find me coding or 
+                    exploring mechanical stuffs.
+                    
+                    <br />
+                  </div>
+                  <br />
+                  <div>
+                    💻 Learning: I am currently learning full stack web development and 
+                    Quantitative finance with an attempt to apply my coding language in 
+                    quantitative finance. <br />
+                  </div>
+                  <br />
+                  <div>
+                    🌍 Exploring: I would like to explore the vastness of oceans once in my life.
+                    The fact that humans only know about 5% of the oceans make me curious to know 
+                    what's present in the depths of ocean.
+                    <br />
+                  </div>
+                  <br />
+                  <div>
+                    🎵 Singing: I love singing old songs whether studying or doing anything else. 
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-[97%] h-[100vh] text-lg px-5">
+                <div>
+                  I'm Priyanshu Kumar, a passionate B.Tech student specialising in
+                  Electronics and Communication at Vellore Institute Of
+                  Technology, Vellore. I'm excited to dive deep into the world
+                  of technology and innovation as I embark on this academic
+                  journey!
+                  <br />
+                </div>
+                <br />
+                <div>
+                  I'm a passionate and curious individual with a love for
+                  learning, creativity, and adventure. Whether I’m diving into a
+                  new hobby, tackling a challenging project, or simply exploring
+                  new ideas, I enjoy immersing myself in whatever I do. I
+                  believe that every experience has something valuable to teach,
+                  and I'm always eager to grow.
+                  <br />
+                </div>
+                <br />
+                <div>
+                  My interests range widely—from cricket and Singing
+                  to exploring the world of Technology and Finance.
+                  
+                  <br />
+                </div>
+                <br />
+                <div>
+                  I also love unwinding with a good book or exploring new music.
+                  Space exploration fascinates me too—I’d jump at any chance to
+                  learn about or be a part of projects that explore the unknown.
+                  These hobbies fuel my imagination and bring fresh perspectives
+                  to my work and personal projects.
+                  <br />
+                </div>
+                <br />
+                <div>
+                  I will summarise my self as someone full of confidence , big goals and 
+                  a person who challenges himself to go beyond his own limits.
+                  <br />
+                </div>
+                <br />
+              </div>
             </div>
             <div className="artistic-line-break">
               <span className="line"></span>
@@ -938,6 +1022,59 @@ function App() {
             <div className="p-3">
               <div className="w-full h-full flex flex-col gap-7 items-center">
                 <span className="text-2xl font-bold">Priyanshu Kumar</span>
+                <a href="https://www.instagram.com/priy_anshupk12">
+                  <span className="text-lg cursor-pointer flex gap-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="30"
+                      height="30"
+                      color="#000000"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M17.5078 6.5L17.4988 6.5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span className="hover-underline-animation">Instagram</span>
+                  </span>
+                </a>
+                <a href="https://github.com/PriyanshuPk12">
+                  <span className="text-lg cursor-pointer flex gap-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="30"
+                      height="30"
+                      color="#000000"
+                      fill="none"
+                    >
+                      <path
+                        d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span className="hover-underline-animation">GitHub</span>
+                  </span>
+                </a>
               </div>
             </div>
           </section>
