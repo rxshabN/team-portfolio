@@ -479,7 +479,7 @@ function App() {
             id="suhani"
             className="min-h-screen flex items-center justify-center text-white text-5xl"
           >
-          <div className="w-full h-full">
+            <div className="w-full h-full">
               <div>
                 <div className="w-full h-1/2 flex justify-center items-center">
                   <div className="circular-image-container">
@@ -494,46 +494,82 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                   👩🏻‍🎨 Hobbies: I absolutely love sketching, listening to music and binge-watching blend which provides me relaxation and entertainment. Sketching allows me to self-express while music offers me a calming escape and binge-watching provides engaging stories to unwind.
+                  👩🏻‍🎨 Hobbies: I absolutely love sketching, listening to music
+                  and binge-watching blend which provides me relaxation and
+                  entertainment. Sketching allows me to self-express while music
+                  offers me a calming escape and binge-watching provides
+                  engaging stories to unwind.
                   <br />
                 </div>
                 <br />
                 <div>
-                  💻 Learning: I'm excited to dive into web development and design, learning HTML, CSS, and JavaScript alongside essential design principles. My goal is to create visually appealing, user-friendly websites and grow in this dynamic field. <br />
+                  💻 Learning: I'm excited to dive into web development and
+                  design, learning HTML, CSS, and JavaScript alongside essential
+                  design principles. My goal is to create visually appealing,
+                  user-friendly websites and grow in this dynamic field. <br />
                 </div>
                 <br />
                 <div>
-                  🌍 Exploring: If given the chance, I’d love to explore space, experience the universe’s vastness, and discover new worlds. The idea of seeing the cosmos up close excites me.
+                  🌍 Exploring: If given the chance, I’d love to explore space,
+                  experience the universe’s vastness, and discover new worlds.
+                  The idea of seeing the cosmos up close excites me.
                   <br />
                 </div>
                 <br />
                 <div>
-                 📚 Reading: I love reading books as it allows me to escape into different worlds, learn new things, and expand my imagination. Each book offers a unique experience that keeps me engaged and curious.
+                  📚 Reading: I love reading books as it allows me to escape
+                  into different worlds, learn new things, and expand my
+                  imagination. Each book offers a unique experience that keeps
+                  me engaged and curious.
                 </div>
               </div>
             </div>
 
-            <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
+            <div className="w-[97%] h-[100vh] text-lg px-5">
               <div>
-              I'm Suhani Singh, a passionate B.Tech student specialising in Electronics and Communication at Vellore Institute Of Technology, Vellore. I'm excited to dive deep into the world of technology and innovation as I embark on this academic journey!
+                I'm Suhani Singh, a passionate B.Tech student specialising in
+                Electronics and Communication at Vellore Institute Of
+                Technology, Vellore. I'm excited to dive deep into the world of
+                technology and innovation as I embark on this academic journey!
                 <br />
               </div>
               <br />
               <div>
-              I'm a passionate and curious individual with a love for learning, creativity, and adventure. Whether I’m diving into a new hobby, tackling a challenging project, or simply exploring new ideas, I enjoy immersing myself in whatever I do. I believe that every experience has something valuable to teach, and I'm always eager to grow.
+                I'm a passionate and curious individual with a love for
+                learning, creativity, and adventure. Whether I’m diving into a
+                new hobby, tackling a challenging project, or simply exploring
+                new ideas, I enjoy immersing myself in whatever I do. I believe
+                that every experience has something valuable to teach, and I'm
+                always eager to grow.
                 <br />
               </div>
               <br />
               <div>
-              My interests range widely—from sketching and binge-watching shows to exploring the world of web development and design. I’m a bit of a tech enthusiast, especially drawn to projects that merge creativity with practical problem-solving. I'm currently getting more into web development, and I’m excited to see where that journey leads!<br />
+                My interests range widely—from sketching and binge-watching
+                shows to exploring the world of web development and design. I’m
+                a bit of a tech enthusiast, especially drawn to projects that
+                merge creativity with practical problem-solving. I'm currently
+                getting more into web development, and I’m excited to see where
+                that journey leads!
+                <br />
               </div>
               <br />
               <div>
-              I also love unwinding with a good book or exploring new music. Space exploration fascinates me too—I’d jump at any chance to learn about or be a part of projects that explore the unknown. These hobbies fuel my imagination and bring fresh perspectives to my work and personal projects.
+                I also love unwinding with a good book or exploring new music.
+                Space exploration fascinates me too—I’d jump at any chance to
+                learn about or be a part of projects that explore the unknown.
+                These hobbies fuel my imagination and bring fresh perspectives
+                to my work and personal projects.
+                <br />
               </div>
               <br />
               <div>
-              Overall, I’d describe myself as someone who thrives on curiosity and connection. I enjoy meeting new people, sharing ideas, and learning from others. Whether it's about creativity, tech, or just having fun, I’m always open to great conversations and new experiences!
+                Overall, I’d describe myself as someone who thrives on curiosity
+                and connection. I enjoy meeting new people, sharing ideas, and
+                learning from others. Whether it's about creativity, tech, or
+                just having fun, I’m always open to great conversations and new
+                experiences!
+                <br />
               </div>
               <br />
             </div>
