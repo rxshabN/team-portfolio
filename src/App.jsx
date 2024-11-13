@@ -406,53 +406,44 @@ function App() {
               </div>
               <div className="w-full h-1/2 text-lg p-7">
                 <div>
-                  🎶 Hobbies: I love dancing so much that I can literally dance
-                  in my sleep! I also love to sketch just for fun, and it’s one
-                  of my ways of releasing stress. I’ve also learned acoustic
-                  guitar—just for fun!
+                  🎶 Hobbies: I love photography,solving riddles,and playing the violin sometimes.
                   <br />
                 </div>
                 <br />
                 <div>
-                  💻 Learning: Since I'm going to enter the tech industry, I'm
-                  currently learning web development and will soon dive into the
-                  prerequisites of data science. <br />
+                  💻 Learning: Since I'm enthusiastic about tech, I'm
+                  currently learning regression and ai related topics and delve deep into AI and ML.I am also interested in quantum computing. <br />
                 </div>
                 <br />
                 <div>
-                  🌍 Exploring: I am absolutely in love with the world; not to
-                  sound cliché, but I want to travel the world so badly, and I
-                  wouldn’t mind going to the same destination more than once.{" "}
+                  🌍 Exploring: I love visiting various hill stations and historical places a lot,places with a  lot of heritage.{" "}
                   <br />
                 </div>
                 <br />
                 <div>
-                  💃 Dance: I love dancing a LOT! Whether I’m studying or
-                  walking, I'm always up for a dance sesh.
+                  
                 </div>
               </div>
             </div>
 
             <div className="w-[97%] h-[100vh] text-lg p-5 pt-10">
               <div className="overflow-hidden">
-                I'm Pritha Nagpal, studying BTech in Computer Science and
-                Engineering with specialization in Data Science from Vellore
+                I'm Amlan Pal, studying BTech in Computer Science and
+                Engineering from Vellore
                 Institute of Technology in Vellore.
                 <br />
               </div>
               <br />
               <div>
-                I'll admit, my journey with technology started very late but
-                ever since i've started, I love it. I want to master my tech
-                skills in data science and work somewhere outside of India.{" "}
+                I have been greatly into maths since childhood and I want to master my tech
+                skills which includes the juncture of maths and computing, wanna pursue my masters abroad.{" "}
                 <br />
               </div>
               <br />
               <div>
-                I'm still in my second year and plan on upgrading my skills. I
+                I'm in my second year and plan on upgrading my skills. I
                 also want to apply for an internship to get more job experience.
-                I plan on doing masters from abroad and work there and enjoy
-                life. <br />
+                I plan on doing masters from abroad. <br />
               </div>
               <br />
             </div>
