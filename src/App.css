@@ -39,21 +39,21 @@ svg {
   height: 100%;
   background: linear-gradient(
     45deg,
-    #d9ecd4,
-    #b8ddb4,
-    #9dcf98,
-    #82c27d,
-    #6bb667,
-    #54a953,
-    #449642,
-    #398738,
-    #307b30,
-    #286f29,
-    #215b23,
-    #3a7739,
-    #508e50,
-    #6da16d,
-    #84b484
+    #f8e3b2,
+    #f3db8f,
+    #f0d68e,
+    #ebc66a,
+    #e4b351,
+    #dc9b38,
+    #d48b2d,
+    #c67b26,
+    #bc6d2d,
+    #b46232,
+    #a65a3c,
+    #b96e3c,
+    #c67b26,
+    #dc9b38,
+    #d48b2d
   );
   background-size: 400% 400%;
   animation: gradientShift 30s ease infinite;
@@ -87,11 +87,11 @@ svg {
   height: 4px;
   background: linear-gradient(
     90deg,
-    #a4c3d6,
-    #8bb0c4,
-    #4682b4,
-    #355970,
-    #2c4a5b
+    #d2b48c,
+    #c69c6d,
+    #8b4513,
+    #5b3a29,
+    #4b3c2a
   );
 
   border-radius: 10px;
@@ -103,11 +103,11 @@ svg {
   height: 4px;
   background: linear-gradient(
     90deg,
-    #2c4a5b,
-    #355970,
-    #4682b4,
-    #8bb0c4,
-    #a4c3d6
+    #4b3c2a,
+    #5b3a29,
+    #8b4513,
+    #c69c6d,
+    #d2b48c
   );
 
   border-radius: 10px;
