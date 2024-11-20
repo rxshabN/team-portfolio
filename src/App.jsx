@@ -44,7 +44,7 @@ function App() {
           .getPropertyValue("background-position")
           .split(" ")[0]
       );
-      if (currentPosition >= 60 && currentPosition <= 100) {
+      if (currentPosition >= 45 && currentPosition <= 100) {
         document.body.style.color = "white";
         svgColor = "white";
         document.documentElement.style.setProperty(
