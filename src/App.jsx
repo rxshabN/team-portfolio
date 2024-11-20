@@ -35,6 +35,8 @@ function App() {
   useEffect(() => {
     const background = backgroundRef.current;
     let frameId;
+    let svgColor;
+    let svgFillColor = "none";
     function updateTextColor() {
       const currentPosition = parseInt(
         window
@@ -42,11 +44,26 @@ function App() {
           .getPropertyValue("background-position")
           .split(" ")[0]
       );
-      if (currentPosition >= 45 && currentPosition <= 100) {
+      if (currentPosition >= 50 && currentPosition <= 100) {
         document.body.style.color = "white";
+        svgColor = "white";
+        document.documentElement.style.setProperty(
+          "--underline-color",
+          "white"
+        );
       } else {
         document.body.style.color = "black";
+        svgColor = "black";
+        document.documentElement.style.setProperty(
+          "--underline-color",
+          "black"
+        );
       }
+      const svgs = document.querySelectorAll("svg"); // Select all SVG elements
+      svgs.forEach((svg) => {
+        svg.style.color = svgColor;
+        svg.style.fill = svgFillColor; // Update the fill color
+      });
       frameId = requestAnimationFrame(updateTextColor);
     }
     frameId = requestAnimationFrame(updateTextColor);
