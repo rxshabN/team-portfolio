@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import "./App.css";
 
 const fadeInVariants = {
@@ -10,6 +10,7 @@ const fadeInVariants = {
 function App() {
   const memberRefs = useRef([]);
   const section3Ref = useRef(null);
+  const backgroundRef = useRef(null);
   const handleScrollToFooter = () => {
     if (section3Ref.current) {
       section3Ref.current.scrollIntoView({
@@ -31,9 +32,32 @@ function App() {
     }
   };
 
+  useEffect(() => {
+    const background = backgroundRef.current;
+    let frameId;
+    function updateTextColor() {
+      const currentPosition = parseInt(
+        window
+          .getComputedStyle(background)
+          .getPropertyValue("background-position")
+          .split(" ")[0]
+      );
+      if (currentPosition >= 45 && currentPosition <= 100) {
+        document.body.style.color = "white";
+      } else {
+        document.body.style.color = "black";
+      }
+      frameId = requestAnimationFrame(updateTextColor);
+    }
+    frameId = requestAnimationFrame(updateTextColor);
+    return () => {
+      cancelAnimationFrame(frameId);
+    };
+  }, []);
+
   return (
     <>
-      <div className="background">
+      <div className="background" ref={backgroundRef}>
         <main>
           <section className="section1 h-[100vh] w-full">
             <motion.div
@@ -240,7 +264,7 @@ function App() {
             <div
               ref={(el) => (memberRefs.current[0] = el)}
               id="rishab"
-              className="min-h-screen text-white text-5xl grid grid-cols-2"
+              className="min-h-screen text-5xl grid grid-cols-2"
             >
               <div className="w-full h-full">
                 <div>
@@ -331,7 +355,7 @@ function App() {
             <div
               ref={(el) => (memberRefs.current[1] = el)}
               id="pritha"
-              className="min-h-screen flex items-center justify-center text-white text-5xl"
+              className="min-h-screen flex items-center justify-center text-5xl"
             >
               <div className="w-full h-full">
                 <div>
@@ -406,7 +430,7 @@ function App() {
             <div
               ref={(el) => (memberRefs.current[2] = el)}
               id="amlan"
-              className="min-h-screen flex items-center justify-center text-white text-5xl"
+              className="min-h-screen flex items-center justify-center text-5xl"
             >
               <div className="w-full h-full">
                 <div>
@@ -475,7 +499,7 @@ function App() {
             <div
               ref={(el) => (memberRefs.current[3] = el)}
               id="suhani"
-              className="min-h-screen flex items-center justify-center text-white text-5xl"
+              className="min-h-screen flex items-center justify-center text-5xl"
             >
               <div className="w-full h-full">
                 <div>
@@ -582,7 +606,7 @@ function App() {
             <div
               ref={(el) => (memberRefs.current[4] = el)}
               id="priyanshu"
-              className="min-h-screen flex items-center justify-center text-white text-5xl"
+              className="min-h-screen flex items-center justify-center text-5xl"
             >
               <div className="w-full h-full">
                 <div>
