@@ -761,7 +761,7 @@ function App() {
                   </span>
                 </a>
 
-                <a href="http://www.linkedin.com/in/rishab-nagwani-53a37628a">
+                <a href="http://www.linkedin.com/in/rishabnagwani">
                   <span className="text-lg cursor-pointer flex gap-2 items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
